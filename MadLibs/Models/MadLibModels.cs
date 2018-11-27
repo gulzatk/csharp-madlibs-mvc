@@ -6,7 +6,7 @@ namespace MadLibs.Models
     private string _place;
     private string _exclamation;
     private string _adjective;
-    private string _seoson;
+    private string _season;
 
     public string GetName()
     {
@@ -40,13 +40,13 @@ namespace MadLibs.Models
     {
       _adjective = newAdjective;
     }
-    public string GetSeoson()
+    public string GetSeason()
     {
-      return _seoson;
+      return _season;
     }
-    public void SetSeoson( string newSeoson)
+    public void SetSeason( string newSeason)
     {
-      _seoson = newSeoson;
+      _season = newSeason;
     }
   }
 }
